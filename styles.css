@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+.headi{
+    display: flex;
+    color: beige;
+    align-items: center;
+    position: relative;
+    left: 550px;
+    padding-top: 20px;
+}
+.headi img{
+    height: 50px;
+}
+.search{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+body{
+    background-image: url('https://wallpaperaccess.com/full/112722.jpg');
+  
+    overflow-x: hidden;
+}
+.template{
+    width: 30%;
+    background: linear-gradient(rgb(91, 189, 202),rgb(141, 201, 134));
+    margin: 40px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+::placeholder{
+    color: black;
+}
+.search input{
+    font-family: 'Bona Nova', serif;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+.search button{
+    
+    margin-left: 0px;
+    border: 0;
+    outline: 0;
+    background: rgb(189, 176, 176);
+    border-radius:20%;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search image{
+    justify-content: center;
+    height: 0px;
+
+}
+.temperature{
+    margin-top: 50px;
+    
+}
+
+.iconweather{
+    padding-top: 5%;
+}
+.humidity{
+    padding-top: 10%;
+}
+
+.wind{
+    padding-top: 10%;
+}
+.cityname{
+    margin-left: 0;
+    border-bottom-left-radius: 15px;
+    border:0;
+    text-align: left;
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+    color:black ;
+   
+}
+.outro{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
